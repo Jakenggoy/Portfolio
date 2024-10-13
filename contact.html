@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header__items">
+                    <img src="styles/logo.png" alt="Logo" class="header__logo">
+                    <nav class="header__buttons">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="family.html">Family</a></li>
+                            <li><a href="education.html">Education</a></li>
+                            <li><a href="hobbies.html">Hobbies and Interests</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="form">
+            <div class="container">
+                <form class="contact-form">
+                    <label for="name" class="form__word">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+    
+                    <label for="email" class="form__word">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+    
+                    <label for="message" class="form__word">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+    
+                    <button type="submit" class="form__button">Send Message</button>
+                </form>
+            </div>
+        </section>
+        <section class="information">
+            <div class="container">
+                <div class="information__text-box">
+                    <p class="information__text">Contact <span class="highlited">Me</span> via</p>
+                </div>
+                <div class="information__data">
+                    <div class="information__map-box">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1935.9855159651343!2d76.77790979570328!3d43.233589353311665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x388343cac2ed26d5%3A0x4f6addc6d4c23a20!2sAport%20Mall!5e0!3m2!1sru!2skz!4v1728797228222!5m2!1sru!2skz" width="650" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>                    </div>
+                    <div class="information__contact">
+                        <p class="information__phone-number">+7 776 073 4988</p>
+                        <p class="information__email">Email: <a href="mailto:zhanserik.izdibay@gmail.com">zhanserik.izdibay@gmail.com</a></p>
+                        <div class="information__social-media">
+                            <a href="https://www.instagram.com/_jaxking?igsh=MXN5NW52MThrZ3hkYQ==" target="_blank">
+                                <img src="styles/insta-logo.svg" alt="Instagram" class="sm-logo">
+                            </a>
+                            <a href="https://t.me/jakenggoy" target="_blank">
+                                <img src="styles/tg-logo.svg" alt="Telegram" class="sm-logo">
+                            </a>
+                            <a href="https://wa.me/77760734988" target="_blank">
+                                <img src="styles/what's-app-logo.svg" alt="What's App" class="sm-logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <footer>
+            <p>&copy; 2024 by <span class="highlited">JaxKing</span></p>
+        </footer>
+    </body>
+</html>
